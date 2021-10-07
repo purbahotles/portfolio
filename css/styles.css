@@ -3752,7 +3752,7 @@ textarea.form-control-lg {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(160, 117, 117, 0.15);
 }
 
 .dropdown-item {
@@ -11455,4 +11455,19 @@ header.masthead h1, header.masthead .h1 {
 }
 .text-saver {
   font-family: 'Poiret One', sans-serif;
+}
+
+.text-left {
+  position: relative;
+  text-align: left;
+}
+
+.hr-header {
+  height: 0.2rem;
+  margin: 1rem auto;
+  background-color: #f4623a;
+  opacity: 1;
+}
+.i-text {
+  color: #f4623a;
 }
