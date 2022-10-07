@@ -3204,16 +3204,6 @@ textarea.form-control-lg {
   border-color: #dc3545;
 }
 
-.btn-light {
-  color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-.btn-light:hover {
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
-}
 .btn-check:focus + .btn-light, .btn-light:focus {
   color: #000;
   background-color: #f9fafb;
@@ -3234,16 +3224,6 @@ textarea.form-control-lg {
   border-color: #f8f9fa;
 }
 
-.btn-dark {
-  color: #fff;
-  background-color: #212529;
-  border-color: #212529;
-}
-.btn-dark:hover {
-  color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
-}
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
   background-color: #1c1f23;
@@ -3257,11 +3237,6 @@ textarea.form-control-lg {
 }
 .btn-check:checked + .btn-dark:focus, .btn-check:active + .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active:focus, .show > .btn-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
-}
-.btn-dark:disabled, .btn-dark.disabled {
-  color: #fff;
-  background-color: #212529;
-  border-color: #212529;
 }
 
 .btn-outline-primary {
@@ -3977,7 +3952,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #f7d8d8;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4453,8 +4428,8 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: #18a4e0;
+  border-color: #18a4e0;
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -7589,7 +7564,7 @@ textarea.form-control-lg {
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: calc(1.325rem + 10vw) !important;
 }
 
 .fs-3 {
@@ -7756,11 +7731,6 @@ textarea.form-control-lg {
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-muted {
-  --bs-text-opacity: 1;
-  color: #6c757d !important;
 }
 
 .text-black-50 {
@@ -11223,7 +11193,7 @@ textarea.form-control-lg {
   }
 
   .fs-2 {
-    font-size: 2rem !important;
+    font-size: 5rem !important;
   }
 
   .fs-3 {
@@ -11311,12 +11281,12 @@ hr.divider {
 }
 
 hr.divider-light {
-  background-color: #fff;
+  background-color: #0D1B2B;
 }
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #0D1B2B;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -11325,14 +11295,14 @@ hr.divider-light {
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: #f7d8d8;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #f7d8d8;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
@@ -11360,7 +11330,7 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #0D1B2B;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
@@ -11369,7 +11339,7 @@ hr.divider-light {
     color: #f4623a;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #f7d8d8;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
@@ -11379,7 +11349,8 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
+  background: url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11471,3 +11442,50 @@ header.masthead h1, header.masthead .h1 {
 .i-text {
   color: #f4623a;
 }
+
+.text-custom {
+  color: #f7d8d8;
+}
+.text-dark-custom {
+  color: #0D1B2B;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #f7d8d8 !important;
+}
+
+.bg-custom {
+  background-color: #18a4e0;
+}
+
+.btn-light {
+  color: #000;
+  background-color: transparent;
+  border: 2px solid #0D1B2B;
+}
+.btn-light:hover {
+  color: #18a4e0;
+  background-color: #0D1B2B;
+  border-color: #0D1B2B;
+}
+.btn-dark {
+  color: #18a4e0;
+  background-color: transparent;
+  border: 2px solid #18a4e0;
+}
+.btn-dark:hover {
+  color: #0D1B2B;
+  background-color: #18a4e0;
+  border-color: #18a4e0;
+}
+
+.btn-dark:disabled, .btn-dark.disabled {
+  color: #0D1B2B;
+  background-color: #18a4e0;
+  border-color: #18a4e0;
+}
+.bg-dark-custom {background-color: #0D1B2B;}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {background-color: #0D1B2B;}
